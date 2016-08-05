@@ -1,0 +1,35 @@
+#main {
+  margin: 0 auto;
+  height: 500px;
+  width: 500px;
+  position: relative; }
+  #main .smallLine, #main .bigLine {
+    width: 1px;
+    background: #CBCBCB;
+    position: absolute;
+    margin: 10px; }
+  #main .smallLine {
+    height: 20px; }
+  #main .bigLine {
+    height: 40px; }
+  #main .secArrow {
+    width: 1px;
+    background: red;
+    height: 200px;
+    top: 130px; }
+  #main .minArrow {
+    width: 2px;
+    background: brown;
+    height: 230px;
+    top: 100px; }
+  #main .hrArrow {
+    width: 4px;
+    background: black;
+    height: 260px;
+    top: 70px; }
+  #main .secArrow, #main .minArrow, #main .hrArrow {
+    position: absolute;
+    transform-origin: 100% 100%;
+    left: 10px; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,47 @@
+#main {
+	margin: 0 auto;
+	height: 500px;
+	width: 500px;
+	// border: 1px solid red;
+	position: relative;
+
+	.smallLine, .bigLine {
+		width: 1px;
+		background: #CBCBCB;
+		position: absolute;
+		margin: 10px;
+	}
+	.smallLine {
+		height: 20px;
+	}
+	.bigLine {
+		height: 40px;
+	}
+
+	.secArrow {
+		width: 1px;
+		background: red;
+		height: 200px;
+		top: 130px;
+	}
+
+	.minArrow {
+		width: 2px;
+		background: brown;
+		height: 230px;
+		top: 100px;
+	}
+
+	.hrArrow {
+		width: 4px;
+		background: black;
+		height: 260px;
+		top: 70px;
+	}
+
+	.secArrow, .minArrow, .hrArrow {
+		position: absolute;
+		transform-origin: 100% 100%;
+		left: 10px;
+	}
+}

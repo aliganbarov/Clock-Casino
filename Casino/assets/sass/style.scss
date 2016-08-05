@@ -1,0 +1,14 @@
+#main {
+	margin: 0 auto;
+	width: 1000px;
+	
+	.wheel {
+		img {
+			float: left;
+		}
+		#pointer {
+			position: relative;
+			top: 240px;
+		}
+	}
+}

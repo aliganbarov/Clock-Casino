@@ -1,0 +1,10 @@
+#main {
+  margin: 0 auto;
+  width: 1000px; }
+  #main .wheel img {
+    float: left; }
+  #main .wheel #pointer {
+    position: relative;
+    top: 240px; }
+
+/*# sourceMappingURL=style.css.map */
